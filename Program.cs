@@ -2,10 +2,11 @@
 
 string input = Console.ReadLine(); // Ввод
 
-int number = int.Parse (input); //Число
+int number = int.Parse(input); //Число
 
 // if ( int.TryParse(input))
 
 int square = number * number; // квадрат
 
 Console.WriteLine($"Число в квадрате равно {square}");
+// Console.WriteLine ("число в квадрате равно {0}, square")FF
